@@ -5,6 +5,8 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
     position: relative; /* To position the button relative to the filters section */
 }
 
@@ -28,4 +30,33 @@
 /* Change opacity when the mouse is on the button */
 .filters button:hover {
     opacity: 0.9;
+}
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    order: 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.amenities {
+    height: 100%;
+    width: 25%;
+    order: 1;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.amenities h3,
+.locations h3 {
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.amenities h4,
+.locations h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto;
 }
